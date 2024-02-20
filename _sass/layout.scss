@@ -1,6 +1,6 @@
 .imageWrapper {
   // Sets the background image in the header area
-  height: 714px;
+  height: 295px;
   background: linear-gradient(
       rgba($image-overlay-color, $image-overlay-transparency),
       rgba($image-overlay-color, $image-overlay-transparency)
@@ -225,14 +225,13 @@ nav > ul li a:active {
   grid-area: i;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 140px;
   align-content: flex-start;
   justify-content: center;
+  margin: 54px;
 }
 
 @media only screen and (max-width: 992px) {
   .appInfo {
-    padding-top: 50px;
     justify-content: center;
   }
 }
@@ -277,7 +276,7 @@ nav > ul li a:active {
   }
 
   .appName {
-    margin-top: 30px;
+    margin-top: -40px;
     text-align: center;
   }
 
@@ -292,13 +291,15 @@ nav > ul li a:active {
   font-weight: normal;
   width: 100%;
   align-items: flex-start;
-  margin-top: 45px;
   flex: 0 1 auto;
   line-height: 1.5;
 }
 
 .appDescription {
   color: $app-description-color;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -342,6 +343,34 @@ nav > ul li a:active {
   height: 75px;
 }
 
+//projects preview
+
+.playbookPreview {
+  grid-area: p;
+  max-width: 80%;
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 1070px) {
+  .playbookPreview {
+    background-size: 370px auto;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .playbookPreview {
+    display: flex;
+    background-size: 260px auto;
+    background-position: center 0;
+    justify-content: center;
+
+    border-radius: 10px;
+  }
+}
 // iPhone Device Preview
 
 // .iphonePreview {
