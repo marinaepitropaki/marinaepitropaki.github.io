@@ -12,8 +12,8 @@ presskit_download_link                    : #https://emilbaehr.com              
 
 app_icon                                  : assets/headerIcon.jpg                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : I create cool digital stuff!              # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : My portfolio is under construction...
+app_price                                 : My portfolio is under construction...                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : In the meantime, listen to my podcast :)
 
 enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
