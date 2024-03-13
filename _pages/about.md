@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 include_in_header: true
+include_in_footer: true
 ---
 
 # MSC UX STUDENT- TEST ENGINEER

@@ -2,6 +2,7 @@
 layout: page
 title: BeGreen Project
 include_in_header: false
+include_in_footer: false
 ---
 
 Proof of concept of an application to help you track your CO2 food emissions through specific products' API.
